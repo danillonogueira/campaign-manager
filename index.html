@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" 
+  href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" 
+  integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" 
+  crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Campaign Manager</title>
+</head>
+  
+  <body>
+    
+    <div class="container">
+
+      <div class="container__header">
+        
+        <div class="nav">
+
+          <i class="nav__icons  fas  fa-bars"></i>
+
+          <div class="nav__right">
+            <i class="nav__icons  fas  fa-search"></i>
+            <i class="nav__icons  fas  fa-question-circle"></i>
+            <i class="nav__icons  fas  fa-cog"></i>
+            <div class="nav__icons">
+              <i class="fas  fa-envelope"></i>
+              <div class="notification-circle">8</div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="panel">
+
+          <div class="panel__profile">
+
+            <img class="img--profile" src="./pictures/dan.jpg">
+            <span>danillo nogueira</span>
+
+          </div>
+
+          <div class="panel__info">
+
+            <img class="img--logo" src="./pictures/shx-logo-edited.jpg">
+            
+            <div class="info__right  text--panel">
+              <span class="info__line">SHX</span>
+              <span class="info__line  text--location"><i class="fas fa-map-marker-alt"></i> Araraquara - SP</span>
+              <hr class="info__line" />
+              <span class="info__line">FRONT-END DEVELOPER</span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="container__options">
+        
+        <div class="options__left">
+          
+          <div class="options__item">
+            <i class="icon  fas  fa-pencil-alt"></i><span class="text--options">edit</span>
+          </div>
+          
+          <div class="options__item">
+            <i class="icon  fas  fa-plus"></i><span class="text--options">clone</span>
+          </div>
+          
+          <div class="options__item">
+            <i class="icon  fas  fa-trash-alt"></i><span class="text--options">delete</span>
+          </div>
+
+          <div class="options__item">
+            <i class="icon  fas  fa-signal"></i><span class="text--options">report</span>
+          </div>
+
+          <div class="options__item">
+            <i class="icon  fas  fa-pause"></i><span class="text--options">pause</span>
+          </div>
+
+        </div>
+
+        <div class="options__right">
+
+          <div class="options__item">
+            <i class="icon  fas  fa-search"></i><span class="text--options">search</span>
+          </div>
+          
+          <div class="vertical-bar"></div>
+          
+          <div class="options__item">
+            <i class="icon  fas  fa-filter"></i><span class="text--options">filter</span>
+          </div>
+
+          <div class="options__add-button">+</div>
+
+        </div>
+
+      </div>
+
+      <div class="container__table">
+
+        <div class="labels  text--labels">
+
+          <div class="circle"></div>
+          <span>Status</span>
+          <span>id #</span>
+          <span>campaign name <i class="fas fa-angle-down"></i></span>
+          <span>location</span>
+          <span>start date <i class="fas fa-angle-down"></i></span>
+          <span>end date <i class="fas fa-angle-down"></i></span>
+          <span>allocated</span>
+          <span>actual</span>
+          <span>leads</span>
+          <span>total conv.</span>
+          <span>target cpa</span>
+
+        </div>
+
+        <div class="lines  lines--blueish  text--lines">
+
+          <div class="circle"></div>
+          <span class="text--active">Active</span>
+          <span>1101</span>
+          <span>Xmas Campaign #223</span>
+          <span>San Francisco, CA</span>
+          <span>4/20/16</span>
+          <span>6/04/16</span>
+          <span>$10.000</span>
+          <span>$5.000</span>
+          <span>4495</span>
+          <span>4495</span>
+          <span>$4.00</span>
+
+        </div>
+
+        <div class="lines  text--lines">
+
+          <div class="circle"></div>
+          <span class="text--active">Active</span>
+          <span>1102</span>
+          <span>Promo $500 - Driving Camp...</span>
+          <span>Miami, FL</span>
+          <span>3/05/16</span>
+          <span>7/30/16</span>
+          <span>$5.000</span>
+          <span>$5.000</span>
+          <span>2930</span>
+          <span>200</span>
+          <span>$2.50</span>
+
+        </div>
+
+        <div class="lines  lines--paused  text--lines">
+
+          <div class="circle  circle--paused"></div>
+          <span class="text--paused">Paused</span>
+          <span>1103</span>
+          <span>Elect the Best Campaign $</span>
+          <span>New York City, NY</span>
+          <span>2/02/16</span>
+          <span>2/05/16</span>
+          <span>$700</span>
+          <span>$700</span>
+          <span>2337</span>
+          <span>2345</span>
+          <span>$7.00</span>
+
+        </div>
+
+        <div class="lines  text--lines">
+
+          <div class="circle"></div>
+          <span class="text--expired">Expired</span>
+          <span>1104</span>
+          <span>Summer Fun in the Sun $20...</span>
+          <span>Houston, TX</span>
+          <span>2/25/16</span>
+          <span>3/20/16</span>
+          <span>$1.000</span>
+          <span>$1.000</span>
+          <span>233</span>
+          <span>3456</span>
+          <span>$5.60</span>
+
+        </div>
+
+        <div class="lines  lines--blueish  text--lines">
+
+          <div class="circle"></div>
+          <span class="text--expired">Expired</span>
+          <span>1023</span>
+          <span>Spring is in - #2235 Atlanta...</span>
+          <span>Atlanta, GA</span>
+          <span>2/20/16</span>
+          <span>3/15/16</span>
+          <span>$1.000</span>
+          <span>$1.000</span>
+          <span>4675</span>
+          <span>5096</span>
+          <span>$2.00</span>
+
+        </div>
+
+        <div class="lines  text--lines">
+
+          <div class="circle"></div>
+          <span class="text--active">Active</span>
+          <span>1101</span>
+          <span>Memorial day weekend Driv...</span>
+          <span>Chicago, IL</span>
+          <span>2/05/16</span>
+          <span>7/01/16</span>
+          <span>$10.000</span>
+          <span>$5.000</span>
+          <span>4675</span>
+          <span>5226</span>
+          <span>$2.00</span>
+
+        </div>
+
+        <div class="lines  lines--blueish  text--lines">
+
+          <div class="circle"></div>
+          <span class="text--active">Active</span>
+          <span>1102</span>
+          <span>Promo #2246</span>
+          <span>Miami, FL</span>
+          <span>1/15/16</span>
+          <span>8/07/16</span>
+          <span>$2.000</span>
+          <span>$2.000</span>
+          <span>4675</span>
+          <span>5126</span>
+          <span>$2.00</span>
+
+        </div>
+
+        <div class="lines  text--lines">
+
+          <div class="circle"></div>
+          <span class="text--paused">Paused</span>
+          <span>1129</span>
+          <span>Labor day Sign on Bonus</span>
+          <span>New York City, NY</span>
+          <span>1/03/16</span>
+          <span>1/05/16</span>
+          <span>$300</span>
+          <span>$300</span>
+          <span>4675</span>
+          <span>8766</span>
+          <span>$2.00</span>
+
+        </div>
+
+        <div class="lines  lines--blueish  text--lines">
+
+          <div class="circle"></div>
+          <span class="text--paused">Paused</span>
+          <span>1129</span>
+          <span>Need for Speed - #445</span>
+          <span>Phoenix, AR</span>
+          <span>1/03/16</span>
+          <span>1/05/16</span>
+          <span>$300</span>
+          <span>$300</span>
+          <span>4675</span>
+          <span>2231</span>
+          <span>$2.00</span>
+
+        </div>
+
+        <div class="lines  text--lines">
+
+          <div class="circle"></div>
+          <span class="text--paused">Paused</span>
+          <span>1129</span>
+          <span>First campaign #122</span>
+          <span>Seattle, WA</span>
+          <span>1/03/16</span>
+          <span>1/05/16</span>
+          <span>$300</span>
+          <span>$300</span>
+          <span>4675</span>
+          <span>1232</span>
+          <span>$2.00</span>
+
+        </div>
+
+      </div>
+
+      <div class="container__footer">
+
+        <span class="text--footer">ROWS PER PAGE 
+          <input type="number" class="text--footer  rows" value="10" min="10" max="100">
+        </span>
+        <span class="text--footer">1-10 of 100</span>
+        <i class="arrow  fas  fa-angle-left"></i>
+        <i class="arrow  fas  fa-angle-right"></i>
+      </div>
+
+    </div>
+
+  </body>
+
+</html>
